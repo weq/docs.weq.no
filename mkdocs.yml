@@ -1,0 +1,43 @@
+site_name: Mkdocs as a blog?
+site_url: https://weq.githubpages.io
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: "black"
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: OWWW MY EYES!!!!
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: "black"
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: I'm afraid of the dark!
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    # - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+plugins:
+  - search
+extra:
+  analytics:
+    provider: google
+    property: G-5M2K713PHH
