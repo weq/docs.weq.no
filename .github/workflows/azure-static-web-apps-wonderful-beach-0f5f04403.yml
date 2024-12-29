@@ -40,6 +40,7 @@ jobs:
       - run: pip install mkdocs-redirects
       - run: mkdocs build
       - run: cp staticwebapp.config.json site/
+      - run: cp api/ site/
       #- uses: actions/checkout@v3
       #  with:
       #    submodules: true
