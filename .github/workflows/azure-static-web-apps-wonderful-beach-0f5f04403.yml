@@ -39,6 +39,7 @@ jobs:
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-redirects
       - run: mkdocs build
+      - run: copy staticwebapp.config.json site/
       #- uses: actions/checkout@v3
       #  with:
       #    submodules: true
